@@ -1,0 +1,20 @@
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+     text-align:center;
+     font-family: 'Roboto', sans-serif;
+}
+
+.btn{
+    margin:1rem;
+    padding:0.5rem 2.5rem;
+    background-color: rgb(87, 84, 84);
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    border: 0.0125rem solid rgba(255,255,255,0.75);
+    font-size: 20px;
+    cursor: pointer;
+     border-radius: 1rem;
+}

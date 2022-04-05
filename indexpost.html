@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vs_Crypto</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <!-- <script src="script2.js"></script> -->
+</head>
+<body>
+    <div class="container_post">
+         <h1 class="heading">Hello</h1>
+    </div>
+
+    <script >
+    console.log("data");
+
+    // let data=fetch("Script.js")
+    // .then(response => response.json())
+    // .then(parsed_data => {
+    //     console.log(parsed_data)
+    //     // etc
+    // });
+
+    const getdata=async()=>{
+        let data=await fetch('./Script')
+        let res=await data.json() 
+        console.log(res)
+    }
+    getdata()
+    </script>
+</body>
+</html>
